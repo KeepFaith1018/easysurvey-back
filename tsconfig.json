@@ -16,6 +16,32 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@libs/redis": [
+        "libs/redis/src"
+      ],
+      "@libs/redis/*": [
+        "libs/redis/src/*"
+      ],
+      "@libs/prisma": [
+        "libs/prisma/src"
+      ],
+      "@libs/prisma/*": [
+        "libs/prisma/src/*"
+      ],
+      "@libs/common": [
+        "libs/common/src"
+      ],
+      "@libs/common/*": [
+        "libs/common/src/*"
+      ],
+      "@libs/nacos": [
+        "libs/nacos/src"
+      ],
+      "@libs/nacos/*": [
+        "libs/nacos/src/*"
+      ]
+    }
   }
 }
